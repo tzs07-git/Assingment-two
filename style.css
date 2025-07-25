@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 100vw; */
+    /* min-height: 100vh; */
+    overflow-x: hidden;
+}
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+/* .text-center {
+    text-align: center;
+} */
+
+/* reusable */
+/* .anchor {
+    text-decoration: none;
+    color: var(--solid-black-50)
+} */
+
+.hidden {
+    display: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* .overflow {
+    overflow: hidden;
+} */
+
+.primary-btn {
+    padding: 19px 80px;
+    background-color: #E95A08;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+/* started styling to code for this website */
+
+/* navbar stylesss*/
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    min-height: 20vh;
+    position: relative;
+    overflow: hidden;
+    max-width: 1140px;
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+.navbar ul {
+    gap: 48px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.menu {
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 2rem;
+}
+
+.navbar ul li:first-child a {
+    font-weight: bold;
+    color: #252432;
+}
+
+.navbar ul li:last-child a {
+    color: #252432;
+}
+
+/* styling code for hero section */
+.banner {
+    justify-content: space-between;
+    align-items: end;
+    min-height: 80vh;
+    max-width: 1140px;
+    margin: 0 auto;
+    font-size: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-title2 {
+    font-size: 6.5rem;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.banner-color {
+    color: #E95A08;
+}
+
+.banner-info {
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* styling code for our plants section */
+.plants {
+    width: 85rem;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.colortwo{
+    color: #E95A08;
+
+}
+.plants-title {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.plants-info {
+    font-size: 2.2rem;
+    color:#8987A1;
+}
+
+/* product section stylesss */
+.product{
+    max-width: 1140px;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.6rem 2rem;
+    margin-bottom: 18rem;
+}
+
+.product-img {
+    width: 100%;
+}
+
+.product-title {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.product-price {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Plants-lover-section stylesss*/
+
+.Plants-lover-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 6rem;
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+.lover-title {
+    font-size: 5rem;
+    font-weight: bold;
+    color:#000000;
+    margin-bottom: 2rem;
+}
+
+.lover-discription {
+    margin-left: 4rem;
+}
+
+.lover-discription-small {
+    font-size: 2rem;
+    color: #8987A1;
+    margin-bottom: 2rem;
+}
+
+.trusted-badge {
+    width: 300px;
+    position: absolute;
+    left: 350px;
+    top: -130px;
+}
+
+/* styling code for collage section */
+.deal {
+    width: 85rem;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.deal-title {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.deal-info {
+    font-size: 2.2rem;
+    color:#8987A1;
+}
+
+.colortwo{
+    color: #E95A08;
+}
+
+/* kothin section */
+
+.picture-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 35rem;
+    margin-bottom: 10rem;
+    gap: 2rem;
+    grid-template-areas: "bloom zabo zabo"
+                         "ana zabo zabo";
+}
+.pic-title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture1 {
+    grid-area: bloom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/deal-bloom.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.picture2 {
+    grid-area: ana;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/deal-ana.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.picture3 {
+    grid-area: zabo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/deal-zabo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.discount1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.discount2 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.pic-btn1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+
+.pic-btn2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+
+/* styling code for newsletter section */
+.colorful {
+    height: 100vh;
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorful-title {
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2.3rem;
+}
+
+.colorful-input {
+    padding: 1.5rem 2rem;
+    width: 50rem;
+    border: none;
+}
+
+.colorful-btn {
+    padding: 1.5rem 5rem;
+    background-color: #E95A08;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+/* started styling on footer section */
+.footer-section {
+     max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.footer-logo {
+    width: 30rem;
+}
+
+.footer-logo img {
+    margin-bottom: 1.6rem;
+}
+
+.footer-info {
+    font-size: 2.2rem;
+    color: #8987A1
+}
+
+.footer-1 ul li {
+    list-style: none;
+}
+
+.footer-1 ul .list {
+    margin-bottom: 3rem;
+}
+
+.footer-1 ul li a {
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 2rem;
+}
+
+.social-icons {
+    margin-left: 2rem;
+}
