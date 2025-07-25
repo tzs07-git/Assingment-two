@@ -276,7 +276,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../assets/deal-bloom.png');
+    background-image: url(assets/deal-bloom.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -289,7 +289,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../assets/deal-ana.png');
+    background-image:url(assets/deal-ana.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -301,7 +301,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../assets/deal-zabo.png');
+    background-image:url(assets/deal-zabo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
