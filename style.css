@@ -65,16 +65,15 @@ body {
 } */
 
 .primary-btn {
-    padding: 19px 80px;
+    padding: 20px 80px;
     background-color: #E95A08;
     border: none;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: white;
     cursor: pointer;
 }
 
-/* started styling to code for this website */
 
 /* navbar stylesss*/
 .navbar {
@@ -111,7 +110,7 @@ body {
     color: #252432;
 }
 
-/* styling code for hero section */
+/* banner style */
 .banner {
     justify-content: space-between;
     align-items: end;
@@ -135,16 +134,16 @@ body {
 
 .banner-info {
     font-size: 2.2rem;
-    color: rgba(0, 0, 0, 0.5);
+    color: #8987A1;
 }
 
-/* styling code for our plants section */
+/* outs plants style */
 .plants {
     width: 85rem;
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 8rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     text-align: center;
 }
 .colortwo{
@@ -161,13 +160,17 @@ body {
     color:#8987A1;
 }
 
+
+
 /* product section stylesss */
+
 .product{
     max-width: 1140px;
     margin: 0 auto;
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2.6rem 2rem;
-    margin-bottom: 18rem;
+    gap: 2.5rem 2rem;
+    margin-bottom: 20rem;
 }
 
 .product-img {
@@ -175,11 +178,14 @@ body {
 }
 
 .product-title {
+    /* align-items: ; */
+    text-align: center;
     font-size: 2rem;
     margin: 2rem 0;
 }
 
 .product-price {
+    text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
 }
@@ -214,12 +220,12 @@ body {
 
 .trusted-badge {
     width: 300px;
-    position: absolute;
     left: 350px;
     top: -130px;
+    position: absolute;
 }
 
-/* styling code for collage section */
+/* deal section style */
 .deal {
     width: 85rem;
     max-width: 1140px;
@@ -243,7 +249,7 @@ body {
     color: #E95A08;
 }
 
-/* kothin section */
+/* kothin section style */
 
 .picture-section {
     max-width: 1140px;
@@ -252,8 +258,8 @@ body {
     min-height: 35rem;
     margin-bottom: 10rem;
     gap: 2rem;
-    grid-template-areas: "bloom zabo zabo"
-                         "ana zabo zabo";
+    grid-template-areas: "bloom zabo  zabo"
+                         "ana   zabo  zabo";
 }
 .pic-title {
     width: 100%;
@@ -330,7 +336,7 @@ body {
     border-bottom: 2px solid white;
 }
 
-/* styling code for newsletter section */
+/* colourfull styles*/
 .colorful {
     height: 100vh;
     background-image: url('../assets/news-letter-bg.png');
@@ -340,12 +346,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+.colorful-container{
+    text-align: center;
+}
 
 .colorful-title {
     font-size: 5rem;
     font-weight: bold;
     color: white;
-    margin-bottom: 2.3rem;
+    margin-bottom: 2rem;
 }
 
 .colorful-input {
@@ -363,7 +372,7 @@ body {
     border: none;
 }
 
-/* started styling on footer section */
+/* footer section style*/
 .footer-section {
      max-width: 1140px;
     margin: 0 auto;
@@ -399,6 +408,6 @@ body {
     font-size: 2rem;
 }
 
-.social-icons {
+.social-icon {
     margin-left: 2rem;
 }
