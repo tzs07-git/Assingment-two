@@ -337,6 +337,9 @@ body {
 }
 
 /* colourfull styles*/
+.colorful-container{
+    text-align: center;
+}
 .colorful {
     height: 100vh;
     background-image: url('../assets/news-letter-bg.png');
@@ -346,21 +349,19 @@ body {
     justify-content: center;
     align-items: center;
 }
-.colorful-container{
-    text-align: center;
-}
 
 .colorful-title {
     font-size: 5rem;
     font-weight: bold;
     color: white;
-    margin-bottom: 2rem;
+    margin-bottom: 2.3rem;
 }
 
 .colorful-input {
     padding: 1.5rem 2rem;
-    width: 50rem;
+    width: 40vw;
     border: none;
+    outline: none;
 }
 
 .colorful-btn {
@@ -370,6 +371,7 @@ body {
     color: white;
     cursor: pointer;
     border: none;
+    outline: none;
 }
 
 /* footer section style*/
@@ -413,5 +415,208 @@ body {
 }
 
 
+
+
+
 /* responsive for small device */
 
+@media screen and (max-width: 576px) {
+    body {
+        width: 100vw;
+        min-height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .hidden-in-576px {
+        display: none;
+    }
+    
+    .visible {
+        display: inline-block;
+    }
+
+    /* reusable */
+    .m-lr {
+        margin-left: 1.6rem;
+        margin-right: 1.6rem;
+    }
+
+    
+    /* responsive navbar */
+    .header {
+        margin-top: 0;
+        margin-bottom: 65px;
+    }
+
+    .logo img {
+        width: 65px;
+    }
+
+    .cart-on-mobile {
+        color:#000000;
+        font-size: 1.6rem;
+    }
+
+    .navbar {
+        margin: 0 16px 28px 16px;
+    }
+
+    /* responsive banner section */
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner .banner-img{
+        margin: 28px 0 0 0;
+    }
+
+    .banner-title2 {
+        font-size: 2.4rem;
+        margin-bottom: 13px;
+    }
+
+    .banner-info {
+        font-size: 1.4rem;
+    }
+
+    .banner-title {
+        margin: 0 16px 0px 16px;
+    }
+
+    /* responsive plants */
+    .plants {
+        width: 100%;
+        margin-bottom: 2.8rem;
+        padding: 0 2.8rem;
+    }
+
+    .plants-title {
+        font-size: 2.4rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .plants-info {
+        font-size: 1.4rem;
+    }
+
+    .product{ 
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 1.4rem;
+        margin-right: 1.4rem;
+        margin-bottom: 4rem;
+    }
+
+    .product-title, .product-price {
+        font-size: 1.6rem;
+    }
+
+    .primary-btn {
+        font-size: 1.6rem;
+        padding: 1.9rem 0;
+        width: 100%;
+    }
+
+
+
+    /* responsive plants lover */
+    .trusted-badge {
+        display: none;
+    }
+
+    .Plants-lover-section {
+        flex-direction: column;
+        gap: 1.8rem;
+        margin-bottom: 14rem;
+    }
+
+    .plants-lover-img{
+        width: 100%;
+    }
+
+    .lover-title {
+        font-size: 2.4rem;
+        margin-top: 1.8rem;
+        margin-bottom: 1.6rem;
+    }
+    .lover-discription {
+        margin-left: 2rem;
+    }
+
+    .lover-discription-small {
+        font-size: 1.4rem;
+    }
+
+    /* deals section responsive */
+    .deal {
+        width: 100%;
+        margin-bottom: 2.8rem;
+        padding: 0 2.8rem;
+    }
+
+    .deal-title {
+        font-size: 2.4rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .deal-info {
+        font-size: 1.4rem;
+    }
+
+    /*  collage section responsive */
+    .picture-section {
+        display: block;
+        margin-top: 5rem;
+    }
+
+    .picture1, .picture2, .picture3 {
+        width: calc(100% - 3.2rem);
+        height: 25rem;
+    }
+
+    .picture2 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .pic-res1 {
+        font-size: 2rem;
+    }
+
+    .pic-res2 {
+        font-size: 1.6rem;
+        margin-top: 1.9rem;
+        /* margin-bottom: 1.9rem; */
+    }
+
+    /* colorful section */
+    .colorful-section {
+        max-width: 360px;
+        margin: 0 auto;
+        height: 10vh;
+
+    }
+
+    .colorful-title {
+        font-size: 3rem;
+    }
+
+    .colorful-btn {
+        padding: 1.5rem 2rem;
+    }
+
+
+    /* footer section responsive */
+    .footer-section {
+        flex-direction: column;
+        margin: 5rem 2rem;
+    }
+
+    .footer-res{
+        font-size: 1.6rem;
+    }
+
+    .margin-tb {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
