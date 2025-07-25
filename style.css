@@ -342,7 +342,7 @@ body {
 }
 .colorful {
     height: 100vh;
-    background-image: url('../assets/news-letter-bg.png');
+    background-image: url(assets/news-letter-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -441,7 +441,7 @@ body {
         margin-right: 1.6rem;
     }
 
-    
+
     /* responsive navbar */
     .header {
         margin-top: 0;
